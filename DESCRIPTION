@@ -9,5 +9,5 @@ License: CC0
 LazyData: true
 RoxygenNote: 6.1.1
 Imports:
-  audio
+  audio,
   stringr
