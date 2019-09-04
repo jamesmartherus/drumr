@@ -85,8 +85,6 @@ tempo(240)
 beat(drum="kick",kit="acoustic")
 
 tempo(240)
-
-
 ```
 
 # Acknowledgements
@@ -94,7 +92,3 @@ tempo(240)
 Drum samples courtesy of [sampleswap.org](sampleswap.org). 
 
 The `beat` function uses some code from Rasmus Bååth's excellent [beepr package](https://github.com/rasmusab/beepr)
-
-
-
-

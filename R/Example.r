@@ -1,3 +1,7 @@
+library(devtools)
+install_github("jamesmartherus/drumr")
+library(drumr)
+
 # Bars 1-3
 for(i in 1:3){
   
