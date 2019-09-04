@@ -16,7 +16,7 @@
 #'  of the sounds above, a random sound will be played.
 #'  
 #'@param expr An optional expression to be excecuted before the sound.
-#'
+#'@import audio
 #'  
 #'  
 #'@return NULL
