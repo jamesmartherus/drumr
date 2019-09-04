@@ -103,7 +103,7 @@ play_aplay <- function(fname) {
 }
 
 play_audio <- function(fname) {
-  sfx <- load.wave(fname)
+  sfx <- audio::load.wave(fname)
   play(sfx)
 }
 
