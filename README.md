@@ -93,7 +93,7 @@ tempo(240)
 
 Drum samples courtesy of [sampleswap.org](sampleswap.org). 
 
-The `beat` function uses some code from Rasmus Bååth's excellent [https://github.com/rasmusab/beepr](`beepr` package)
+The `beat` function uses some code from Rasmus Bååth's excellent [beepr package](https://github.com/rasmusab/beepr)
 
 
 
