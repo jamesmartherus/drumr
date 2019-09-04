@@ -32,6 +32,7 @@
 #' }
 #'@export
 beat <- function(drum="snare", kit="acoustic", expr=NULL) {
+  library(audio)
   expr
   drums <- c(snare = "snare.wav",
               kick = "kick.wav",
