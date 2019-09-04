@@ -32,7 +32,6 @@
 #' }
 #'@export
 beat <- function(drum="snare", kit="acoustic", expr=NULL) {
-  library(audio)
   expr
   drums <- c(snare = "snare.wav",
               kick = "kick.wav",
@@ -105,7 +104,7 @@ play_aplay <- function(fname) {
 
 play_audio <- function(fname) {
   sfx <- audio::load.wave(fname)
-  play(sfx)
+  audio::play(sfx)
 }
 
 play_file <- function(fname) {
