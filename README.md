@@ -17,18 +17,30 @@ The `beat` function requires the `audio` package.
 
 ## `beat()`
 
-`beat()` takes two arguments - `kit` and `drum`. The `kit` argument selects a drumset, and the `drum` argument selects a specific piece from that kit. As present, there are three kits available:
+`beat()` takes two arguments - `kit` and `drum`. The `kit` argument selects a drumset, and the `drum` argument selects a specific piece from that kit. As present, there are four kits available:
 
 - acoustic
 - hiphop
 - electro
+- pearl [(source)](https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FREAL+LIVE+KITS%2FPearl+Real+Kit%2F)
+- beatbox [(source)](https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FUNUSUAL+KITS+and+FX%2FBeatBox+Male%2F)
 
-Each kit includes four pieces:
+Each kit includes at least four pieces:
 
-- kick: a sample of a standard bass drum strike
-- snare: a sample of a standard snare drum strike
-- hihat: a sample of a closed hihat
-- crash: a sample of a crash cymbal
+- kick: a standard bass drum strike
+- snare: a standard snare drum strike
+- hihat: a closed hihat cymbal
+- crash: a crash cymbal
+
+Some kits also include additional pieces:
+
+- hitom1: a high tom
+- hitom2: a second high tom
+- floortom: a floor tom
+- openhat: an open hihat
+- misc1: varies by kit
+- misc2: varies by kit
+
 
 ### Usage
 

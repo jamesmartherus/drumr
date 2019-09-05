@@ -8,9 +8,11 @@ beat(drum = "snare", kit = "acoustic", expr = NULL)
 }
 \arguments{
 \item{drum}{character string or number specifying which drum is to be played by 
-specifying one of the built in sounds. The default is "snare". Possible sounds are:
+specifying one of the built in sounds. The default is "snare". Every kit includes at 
+least four pieces:
 \enumerate{ \item \code{"kick"} \item \code{"snare"} \item \code{"hihat"}
-\item \code{"crash"}} If \code{drum} does not match any
+\item \code{"crash"}}
+If \code{drum} does not match any
 of the sounds above, a random sound will be played.}
 
 \item{kit}{character string specifying which kit is to be used. The default is "acoustic."

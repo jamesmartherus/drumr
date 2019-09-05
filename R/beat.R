@@ -4,9 +4,11 @@
 #'
 #'
 #'@param drum character string or number specifying which drum is to be played by 
-#'  specifying one of the built in sounds. The default is "snare". Possible sounds are:
+#'  specifying one of the built in sounds. The default is "snare". Every kit includes at 
+#'  least four pieces:
 #'  \enumerate{ \item \code{"kick"} \item \code{"snare"} \item \code{"hihat"}
-#'  \item \code{"crash"}} If \code{drum} does not match any
+#'  \item \code{"crash"}}
+#'  If \code{drum} does not match any
 #'  of the sounds above, a random sound will be played.
 #'  
 #'@param kit character string specifying which kit is to be used. The default is "acoustic."
@@ -17,6 +19,7 @@
 #'  
 #'@param expr An optional expression to be excecuted before the sound.
 #'@import audio
+#'@import stringr
 #'  
 #'  
 #'@return NULL
@@ -43,25 +46,18 @@ beat <- function(drum="snare", kit="acoustic", expr=NULL) {
   drum_path <- NULL
   if(is.na(drums[drum]) || length(drums[drum]) != 1 || is.na(kits[kit]) || length(kits[kit]) != 1) {
     if(is.character(drum)) {
-      drum <- str_trim(drum)
+      drum <- stringr::str_trim(drum)
       if(is.character(kit)){
-        kit <- str_trim(kit)
+        kit <- stringr::str_trim(kit)
         if(file.exists(system.file(paste("sounds/", kits[kit], drums[drum], sep=""), package="drumr"))){
           drum_path <- system.file(paste("sounds/", kits[kit], drums[drum], sep=""), package="drumr")
         } else {
-          warning(paste('"', drum, '" is not a valid drum, playing a random sound instead.', sep = ""))
+          warning(paste("Either ", '"', kit, '"', " is not a valid kit, or ", '"', drum, '"', " is not a valid drum. Playing a random sound instead.", sep = ""))
         }
       }
     }
-  } else if(is.na(kits[kit]) || length(kits[kit]) != 1) {
-    if(is.character(kit)) {
-      kit <- str_trim(kit)
-      if(file.exists(kit)) {
-        drum_path <- drum
-      } else {
-        warning(paste('"', drum, '" is not a valid drum, playing a random sound instead.', sep = ""))
-      }
-    }
+  } else if(!file.exists(system.file(paste("sounds/", kits[kit], drums[drum], sep=""), package="drumr"))){
+      warning(paste("Either ", '"', kit, '"', " is not a valid kit, or ", '"', drum, '"', " is not a valid drum. Playing a random sound instead.", sep = ""))
   } else {
     drum_path <- system.file(paste("sounds/", kits[kit], drums[drum], sep=""), package="drumr")
   }
@@ -76,11 +72,11 @@ beat <- function(drum="snare", kit="acoustic", expr=NULL) {
 }
 
 is_wav_fname <- function(fname) {
-  str_detect(fname, regex("\\.wav$", ignore_case = TRUE))
+  stringr::str_detect(fname, regex("\\.wav$", ignore_case = TRUE))
 }
 
 escape_spaces <- function(s) {
-  str_replace_all(s, " ", "\\\\ ")
+  stringr::str_replace_all(s, " ", "\\\\ ")
 }
 
 play_vlc <- function(fname) {
