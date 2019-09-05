@@ -42,7 +42,9 @@ beat <- function(drum="snare", kit="acoustic", expr=NULL) {
               crash = "crash.wav")
   kits <- c(acoustic = "acoustic/",
             electro = "electro/",
-            hiphop = "hiphop/")
+            hiphop = "hiphop/",
+            beatbox = "beatbox/",
+            pearl = "pearl/")
   drum_path <- NULL
   if(is.na(drums[drum]) || length(drums[drum]) != 1 || is.na(kits[kit]) || length(kits[kit]) != 1) {
     if(is.character(drum)) {
