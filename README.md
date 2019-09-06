@@ -140,7 +140,6 @@ pattern1 <- tribble(~drum,~notes,
         1,2,
         2,1) 
 
-
 pattern2 <- tribble(~drum,~notes,
                  1,2,
                  1,2,
@@ -151,8 +150,6 @@ pattern2 <- tribble(~drum,~notes,
                  2,4) 
 
 song <- bind_rows(map_dfr(seq_len(3), ~ pattern1), pattern2 )
-
-  
 
  walk2(song$drum, song$notes,~  { beat(drum=drum[.x],kit="acoustic"); tempo(120 * .y) } )
 ```
