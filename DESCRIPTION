@@ -5,7 +5,7 @@ Authors@R: person("James", "Martherus", email = "james@martherus.com",
                   role = c("aut", "cre"))
 Description: Includes various functions for playing drum sounds in R.
 Depends: R (>= 3.1.0)
-License: CC0
+License: GPL-3 + file LICENSE
 LazyData: true
 Imports:
   audio,
