@@ -30,7 +30,7 @@
 #' beat()
 #' 
 #' # Play a bass sound from the hiphop kit.
-#' beep(drum="bass", kit="hiphop")
+#' beat(drum="bass", kit="hiphop")
 #' 
 #'@export
 beat <- function(drum="snare", kit="acoustic", expr=NULL) {
