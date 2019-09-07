@@ -24,9 +24,11 @@ The `beat` function requires the `audio` package.
 `beat()` takes two arguments - `kit` and `drum`. The `kit` argument selects a drumset, and the `drum` argument selects a specific piece from that kit. As present, there are four kits available:
 
 - acoustic [(source)](https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FREAL+LIVE+KITS%2FPearl+Real+Kit%2F)
-- hiphop
-- electro
+- hiphop [(source)](https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FSTYLE+KITS+%28Hip+Hop%2C+Etc%29%2FHip+Hop+Specialty+Kit%2F)
+- electro [(source)](https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FSTYLE+KITS+%28Hip+Hop%2C+Etc%29%2FPrecise+Electro+Percussion%2F)
 - beatbox [(source)](https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FUNUSUAL+KITS+and+FX%2FBeatBox+Male%2F)
+- world [(source)](https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FETHNIC+and+WORLD+PERCUSSION%2F)
+- R2D2 [(source)](https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FUNUSUAL+KITS+and+FX%2FR2D2+Construction+Kit%2F)
 
 Each kit includes four pieces:
 

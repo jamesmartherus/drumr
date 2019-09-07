@@ -14,7 +14,7 @@
 #'@param kit character string specifying which kit is to be used. The default is "acoustic."
 #' Possible kits are:
 #' \enumerate{ \item \code{"acoustic"} \item \code{"hiphop"} \item \code{"electro"}
-#' \item \code{beatbox} \item \code{pearl}}
+#' \item \code{beatbox} \item \code{world} \item \code{r2d2}}
 #'  If \code{kit} does not match any
 #'  of the sounds above, a random sound will be played.
 #'  
@@ -45,7 +45,8 @@ beat <- function(drum="snare", kit="acoustic", expr=NULL) {
             electro = "electro/",
             hiphop = "hiphop/",
             beatbox = "beatbox/",
-            pearl = "pearl/")
+            world = "world/",
+            r2d2 = "r2d2/")
   drum_path <- NULL
   if(is.na(drums[drum]) || length(drums[drum]) != 1 || is.na(kits[kit]) || length(kits[kit]) != 1) {
     if(is.character(drum)) {

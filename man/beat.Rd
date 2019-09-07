@@ -18,7 +18,7 @@ of the sounds above, a random sound will be played.}
 \item{kit}{character string specifying which kit is to be used. The default is "acoustic."
 Possible kits are:
 \enumerate{ \item \code{"acoustic"} \item \code{"hiphop"} \item \code{"electro"}
-\item \code{beatbox} \item \code{pearl}}
+\item \code{beatbox} \item \code{world} \item \code{r2d2}}
  If \code{kit} does not match any
  of the sounds above, a random sound will be played.}
 
