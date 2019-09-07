@@ -22,7 +22,7 @@ Possible kits are:
  If \code{kit} does not match any
  of the options in this list, a random sound will be played.}
 
-\item{expr}{An optional expression to be excecuted before the sound.}
+\item{expr}{An optional expression to be executed before the sound.}
 }
 \description{
 \code{beat} plays a drum beat.

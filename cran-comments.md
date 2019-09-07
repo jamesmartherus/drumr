@@ -1,3 +1,10 @@
+## Resubmission
+This is a resubmission. In this version I have:
+
+* Removed the redundant "in R" from the description field of DESCRIPTION.
+* Edited a link in the README.md document. The new link is fully specified including protocol.
+* Removed the LICENSE file omitted the file reference in the licesnse field of DESCRIPTION.
+
 ## Test environments
 * local OS X install, R 3.1.2
 * ubuntu 12.04 (on travis-ci), R 3.1.2
