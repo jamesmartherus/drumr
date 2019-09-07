@@ -2,7 +2,7 @@
 [![Travis build status](https://travis-ci.org/jamesmartherus/drumr.svg?branch=master)](https://travis-ci.org/jamesmartherus/drumr)
 <!-- badges: end -->
 
-# `drumr`: Turn R into a Basic Drum Machine
+# `drumr`: Turn R into a Drum Machine
 
 `drumr` allows you to play drum beats from within R. At present the package contains only two functions -- `beat()`, which plays a beat from a given `kit` and `drum`, and `tempo()`, which sets the spacing between beats.
 

@@ -1,5 +1,5 @@
 Package: drumr
-Title: Turn R into a drum machine
+Title: Turn R into a Drum Machine
 Version: 0.1.0
 Authors@R: person("James", "Martherus", email = "james@martherus.com",
                   role = c("aut", "cre"))
