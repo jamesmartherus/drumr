@@ -158,6 +158,6 @@ song <- bind_rows(map_dfr(seq_len(3), ~ pattern1), pattern2 )
 
 # Acknowledgments
 
-Drum samples courtesy of [sampleswap.org](sampleswap.org). 
+Drum samples courtesy of [sampleswap.org](https://sampleswap.org). 
 
 The `beat` function uses some code from Rasmus Bååth's excellent [beepr package](https://github.com/rasmusab/beepr)
