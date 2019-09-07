@@ -4,15 +4,21 @@
 
 # `drumr`: Turn R into a Basic Drum Machine
 
-`drumr` allows you to play drum beats from within R. At present the package contains only two functions -- `beat()`, which plays a beat from a given `kit` and `drum`, and `tempo()`, which sets the spacing between beats. Admittedly, this package is basically useless, but it's fun to play with.
+`drumr` allows you to play drum beats from within R. At present the package contains only two functions -- `beat()`, which plays a beat from a given `kit` and `drum`, and `tempo()`, which sets the spacing between beats.
 
 ## Installation
 
-To install `drumr`, use the `install_github` function from the `devtools` package:
+To install the development version of `drumr`, use the `install_github` function from the `devtools` package:
 
 ```
 library(devtools)
 install_github("jamesmartherus/drumr")
+```
+
+To install the latest release version of `drumr`, use the `install.packages` function:
+
+```
+install.packages("drumr")
 ```
 
 ## Requirements
