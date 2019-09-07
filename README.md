@@ -156,7 +156,7 @@ song <- bind_rows(map_dfr(seq_len(3), ~ pattern1), pattern2 )
  walk2(song$drum, song$notes,~  { beat(drum=drum[.x],kit="acoustic"); tempo(120 * .y) } )
 ```
 
-# Acknowledgements
+# Acknowledgments
 
 Drum samples courtesy of [sampleswap.org](sampleswap.org). 
 

@@ -18,7 +18,7 @@
 #'  If \code{kit} does not match any
 #'  of the options in this list, a random sound will be played.
 #'  
-#'@param expr An optional expression to be excecuted before the sound.
+#'@param expr An optional expression to be executed before the sound.
 #'@import audio
 #'@import stringr
 #'  
