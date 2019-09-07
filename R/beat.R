@@ -9,14 +9,14 @@
 #'  \enumerate{ \item \code{"kick"} \item \code{"snare"} \item \code{"hihat"}
 #'  \item \code{"crash"}}
 #'  If \code{drum} does not match any
-#'  of the sounds above, a random sound will be played.
+#'  of the options in this list, a random sound will be played.
 #'  
 #'@param kit character string specifying which kit is to be used. The default is "acoustic."
 #' Possible kits are:
 #' \enumerate{ \item \code{"acoustic"} \item \code{"hiphop"} \item \code{"electro"}
-#' \item \code{beatbox} \item \code{world} \item \code{r2d2}}
+#' \item \code{"beatbox"} \item \code{"world"} \item \code{"r2d2"}}
 #'  If \code{kit} does not match any
-#'  of the sounds above, a random sound will be played.
+#'  of the options in this list, a random sound will be played.
 #'  
 #'@param expr An optional expression to be excecuted before the sound.
 #'@import audio
@@ -29,11 +29,9 @@
 #' # Play a "snare" sound from the "acoustic" kit
 #' beat()
 #' 
-#' \dontrun{
 #' # Play a bass sound from the hiphop kit.
 #' beep(drum="bass", kit="hiphop")
 #' 
-#' }
 #'@export
 beat <- function(drum="snare", kit="acoustic", expr=NULL) {
   expr
