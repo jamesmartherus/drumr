@@ -34,7 +34,7 @@ The `beat` function requires the `audio` package.
 - electro [(source)](https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FSTYLE+KITS+%28Hip+Hop%2C+Etc%29%2FPrecise+Electro+Percussion%2F)
 - beatbox [(source)](https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FUNUSUAL+KITS+and+FX%2FBeatBox+Male%2F)
 - world [(source)](https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FETHNIC+and+WORLD+PERCUSSION%2F)
-- R2D2 [(source)](https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FUNUSUAL+KITS+and+FX%2FR2D2+Construction+Kit%2F)
+- r2d2 [(source)](https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28FULL+KITS%29%2FUNUSUAL+KITS+and+FX%2FR2D2+Construction+Kit%2F)
 
 Each kit includes four pieces:
 
@@ -50,7 +50,7 @@ Each kit includes four pieces:
 
 ## `tempo()`
 
-`tempo()` is a basic wrapper for `Sys.time()` that sets the time between beats in beats per minute (bpm). `tempo()` takes one argument - `bpm`. 
+`tempo()` is a basic wrapper for `Sys.time()` that sets the time between calls to `beat()` in beats per minute (bpm). `tempo()` takes one argument - `bpm`. 
 
 ### Usage
 

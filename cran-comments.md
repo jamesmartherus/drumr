@@ -1,6 +1,9 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
+* Expanded the Description section.
+* Clarified that `tempo()` is not meant to make a sound, but to set the space between two beats
+* Fixed the second example in beat.Rd
 * Removed the redundant "in R" from the description field of DESCRIPTION.
 * Edited a link in the README.md document. The new link is fully specified including protocol.
 * Removed the LICENSE file omitted the file reference in the licesnse field of DESCRIPTION.

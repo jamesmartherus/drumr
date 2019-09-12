@@ -32,6 +32,6 @@ Possible kits are:
 beat()
 
 # Play a bass sound from the hiphop kit.
-beat(drum="bass", kit="hiphop")
+beat(drum="kick", kit="hiphop")
 
 }
