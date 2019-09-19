@@ -1,6 +1,7 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
+* Removed directed quotation marks from the description field.
 * Expanded the Description section.
 * Clarified that `tempo()` is not meant to make a sound, but to set the space between two beats
 * Fixed the second example in beat.Rd
