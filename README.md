@@ -1,4 +1,5 @@
 <!-- badges: start -->
+[![CRAN Version](https://www.r-pkg.org/badges/version/drumr)](https://cran.r-project.org/package=drumr)
 [![Travis build status](https://travis-ci.org/jamesmartherus/drumr.svg?branch=master)](https://travis-ci.org/jamesmartherus/drumr)
 <!-- badges: end -->
 

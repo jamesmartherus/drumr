@@ -1,6 +1,6 @@
 Package: drumr
 Title: Turn R into a Drum Machine
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R: person("James", "Martherus", email = "james@martherus.com",
                   role = c("aut", "cre"))
 Description: Includes various functions for playing drum sounds. beat() plays a drum sound
