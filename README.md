@@ -1,6 +1,7 @@
 <!-- badges: start -->
 [![CRAN Version](https://www.r-pkg.org/badges/version/drumr)](https://cran.r-project.org/package=drumr)
 [![Travis build status](https://travis-ci.org/jamesmartherus/drumr.svg?branch=master)](https://travis-ci.org/jamesmartherus/drumr)
+![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/drumr)
 <!-- badges: end -->
 
 # `drumr`: Turn R into a Drum Machine <img src="man/figures/logo.png" align="right" width=120 />
