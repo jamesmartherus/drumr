@@ -36,9 +36,16 @@
 beat <- function(drum="snare", kit="acoustic", expr=NULL) {
   expr
   drums <- c(snare = "snare.wav",
-              kick = "kick.wav",
-              hihat = "hihat.wav",
-              crash = "crash.wav")
+            kick = "kick.wav",
+            hihat = "hihat.wav",
+            crash = "crash.wav",
+            openhat = "openhat.wav",
+            tom1 = "tom1.wav",
+            tom2 = "tom2.wav",
+            tom3 = "tom3.wav",
+            tom4 = "tom4.wav",
+            ride = "ride.wav"
+            )
   kits <- c(acoustic = "acoustic/",
             electro = "electro/",
             hiphop = "hiphop/",
